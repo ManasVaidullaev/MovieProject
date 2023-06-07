@@ -1,7 +1,7 @@
-package Interfeises;
+package MainPackage.DataBase.Interfeises;
 
-import Models.Director;
-import Models.Movie;
+import MainPackage.DataBase.Models.Director;
+import MainPackage.DataBase.Models.Movie;
 
 import java.util.List;
 

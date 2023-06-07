@@ -1,8 +1,10 @@
-import DataBase.DataBase;
-import Models.Cast;
-import Models.Director;
-import Models.Movie;
-import ServiceImpl.MovieImpl;
+package MainPackage.DataBase;
+
+import MainPackage.DataBase.DataBase;
+import MainPackage.DataBase.Models.Cast;
+import MainPackage.DataBase.Models.Director;
+import MainPackage.DataBase.Models.Movie;
+import MainPackage.DataBase.ServiceImpl.MovieImpl;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;

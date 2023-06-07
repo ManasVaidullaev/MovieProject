@@ -1,11 +1,10 @@
-package DataBase;
+package MainPackage.DataBase;
 
-import Models.Cast;
-import Models.Director;
-import Models.Movie;
+import MainPackage.DataBase.Models.Cast;
+import MainPackage.DataBase.Models.Director;
+import MainPackage.DataBase.Models.Movie;
 
 import java.util.LinkedList;
-import java.util.List;
 
 public class DataBase {
     private LinkedList<Cast>casts;

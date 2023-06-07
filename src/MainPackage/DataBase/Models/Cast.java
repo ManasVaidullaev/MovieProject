@@ -1,4 +1,4 @@
-package Models;
+package MainPackage.DataBase.Models;
 
 public class Cast {
     private String actorFullName;

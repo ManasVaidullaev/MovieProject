@@ -1,4 +1,4 @@
-package Models;
+package MainPackage.DataBase.Models;
 
 public class Director {
     private String name;

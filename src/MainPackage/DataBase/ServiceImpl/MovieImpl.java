@@ -1,11 +1,10 @@
-package ServiceImpl;
+package MainPackage.DataBase.ServiceImpl;
 
-import DataBase.DataBase;
-import Interfeises.Findable;
-import Interfeises.Sortable;
-import Models.Director;
-import Models.Movie;
-import org.w3c.dom.ls.LSOutput;
+import MainPackage.DataBase.DataBase;
+import MainPackage.DataBase.Interfeises.Findable;
+import MainPackage.DataBase.Interfeises.Sortable;
+import MainPackage.DataBase.Models.Director;
+import MainPackage.DataBase.Models.Movie;
 
 import java.util.*;
 
@@ -55,8 +54,15 @@ public class MovieImpl implements Findable, Sortable {
         System.out.print("Введите год выпуска кино: ");
         int movieYear = scanner.nextInt();
         for (int i = 0; i < dataBase.getMovies().size(); i++) {
-            if (movieYear == dataBase.getMovies().get(i).getYear()) {
-            }}}
+            if (movieYear != dataBase.getMovies().get(i).getYear()) {
+                System.out.println("bul jyly chykkan kino jok");
+                break;
+            }else {
+                System.out.println(dataBase.getMovies().get(i));
+                break;
+            }
+        }
+    }
     @Override
     public void findMovieByDirector(List<Movie> movies, Director director) {
         for (int i = 0; i < dataBase.getMovies().size(); i++) {

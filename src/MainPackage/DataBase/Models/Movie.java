@@ -1,7 +1,6 @@
-package Models;
+package MainPackage.DataBase.Models;
 
 import java.util.LinkedList;
-import java.util.List;
 
 public class Movie {
     private String name;
